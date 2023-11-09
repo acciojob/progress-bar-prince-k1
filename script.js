@@ -22,6 +22,7 @@ prev.addEventListener('click' ,() => {
 })
 
 next.addEventListener('click' ,() => {
+	prev.disabled = false;
     for(let i = 0 ; i <= dash.length-1; i++){
         if(!dash[i].className.includes('active')){
             dash[i].classList.add('active');
