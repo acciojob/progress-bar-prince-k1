@@ -32,6 +32,12 @@ next.addEventListener('click' ,() => {
     for(let i = 0 ; i < circle.length; i++){
         if(!circle[i].className.includes('active')){
             circle[i].classList.add('active');
+			if(circle[i] == circle[circle.length-1]){
+                next.disabled = true;
+            }
+            else{
+                next.disabled = false;
+            }
             break;
         }
     }  
