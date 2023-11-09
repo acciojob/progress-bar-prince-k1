@@ -1,1 +1,64 @@
 /*  your css code here. If applicable */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+}
+.main{
+    display: flex;
+    gap: 0;
+    /* height: 100vh; */
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+   min-width: 50px;
+    min-height: 50px;
+    border: 3px solid #E0E0E0;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+span{
+    text-align: center;
+    font-size: large;
+    /* margin-top: 50px; */
+    /* margin-left: 25px; */
+}
+
+.dash{
+    width: 10px;
+    border: 3px solid #E0E0E0;
+}
+
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    gap: 50px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 7%;
+    border: none;
+    background-color: #3498DB;
+    color: white;
+}
+.active{
+    border: 3px solid #3498DB;
+}
